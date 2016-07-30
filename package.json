@@ -1,0 +1,21 @@
+{
+  "name": "heybro-push-scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dylan Spurgin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylanspurgin/heybro-push-scheduler/issues"
+  },
+  "homepage": "https://github.com/dylanspurgin/heybro-push-scheduler#readme",
+  "dependencies": {
+    "cron": "^1.1.0",
+    "firebase": "^3.2.1",
+    "node-promise": "^0.5.12",
+    "request": "^2.74.0"
+  }
+}

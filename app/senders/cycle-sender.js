@@ -24,8 +24,8 @@ function run () {
                                 // Remove pending record
                                 return notificationSnapshot.ref.remove();
                             });
-                    });
-            });
+                    }));
             return Promise.all(promises);
         });
+    });
 }

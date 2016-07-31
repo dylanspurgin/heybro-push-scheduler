@@ -1,0 +1,4 @@
+cron:
+- description: Schedule Push Notifications every minute
+  url: /run
+  schedule: every 1 minutes
